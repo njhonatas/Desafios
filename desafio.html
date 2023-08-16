@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        text-align: center  ;
+    }
+    table{
+        position: relative;
+        border-collapse: collapse;
+        width: 201px;
+        box-shadow: 2px 2px 2px 0px #00000052;
+    }   
+
+    td{
+        border: 1px solid black;
+        border-radius: 2.0em;
+        padding: 15px;
+        width: 10px;
+        text-align: center;
+    }
+
+    td.num{
+        width: 10px;
+        padding:30px;
+    }
+    td:hover{
+        background-color: purple;
+        box-shadow: 2px 2px 2px 2px #0000005c;
+        border-radius: 10px;
+    }
+     </style>
+</head>
+<body>
+    <h1>Desafio</h1>
+
+    <table>
+        <tr>
+            <td class="hover">Num Look</td>
+            <td class="num">/</td>
+            <td class="hover">*</td>
+            <td class="hover">-</td>
+        </tr>
+        <tr>
+            <td class="hover">7</td>
+            <td class="num">8</td>
+            <td class="hover">9</td>
+            <td class="hover">+</td>
+        </tr>
+        <tr>
+            <td class="hover">4</td>
+            <td class="num">5</td>
+            <td class="hover">6</td>
+            <td class="hover">.</td>
+        </tr>
+        <tr>
+            <td class="hover">1</td>
+            <td class="num">2</td>
+            <td class="hover">3</td>
+            <td rowspan="10">Enter</td>
+        </tr>
+        <tr>
+            <td colspan="2">0</td>
+            <td class="hover">Del</td>
+        </tr>
+</html>
